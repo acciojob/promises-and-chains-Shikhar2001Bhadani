@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let age = parseInt(document.getElementById('age').value.trim()); 
 
         if (name === "" || isNaN(age)) {
-            alert("Please enter valid details.");
+            alert("Please enter valid details");
             return;
         }
 
